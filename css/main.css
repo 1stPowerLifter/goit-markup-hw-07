@@ -859,7 +859,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .description__box::-webkit-scrollbar-thumb {
-  background-color: var(--brand-color);
+  width: 10px;
+  background-color: var(--btn-hover);
   outline: 1px solid var(--second-color);
 }
 
